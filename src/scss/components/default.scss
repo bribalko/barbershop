@@ -1,0 +1,73 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  color: $black;
+  @include font('Open Sans', 500);
+  font-family: 'Open Sans' sans-serif; 
+  
+  &.active-body {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+a,
+button {
+  color: $white2;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 55px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  list-style: none;
+}
+.link{
+  font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    
+    &:hover{
+        color:$btn-color;
+        transition: 0.3s all ease;
+    }
+}
+.btn{
+  padding: 12px 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+
+  transition: 0.3ms all ease;
+
+  color:black;
+  
+  &:hover{
+      background-color: $btn-color;
+      color: $white;
+      transition:  background-color 0.3ms all ease;
+  }
+}
