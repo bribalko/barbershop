@@ -742,6 +742,10 @@ ul {
   transition: background-color 0.3ms all ease;
 }
 
+section {
+  margin-bottom: 130px;
+}
+
 /**
  * Swiper 7.0.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -2540,5 +2544,64 @@ button.swiper-pagination-bullet {
   line-height: 30px;
   /* or 167% */
   color: #9DA4BD;
+  letter-spacing: 0.02em;
+}
+
+.about__cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__cont-img {
+  display: flex;
+  width: 570px;
+}
+
+.about__img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about__cont-text {
+  width: 570px;
+}
+.about__cont-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about__subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.about__lable {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+}
+
+.about__quote {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  letter-spacing: 0.02em;
+}
+
+.about__text {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* or 186% */
   letter-spacing: 0.02em;
 }

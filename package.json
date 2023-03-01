@@ -1,5 +1,5 @@
 {
-  "name": "nft-landing",
+  "name": "barbershop",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -11,7 +11,7 @@
     "zip": "gulp deployZIP --build",
     "deploy": "gulp deployFTP --build"
   },
-  "author": "",
+  "author": "bribalko",
   "license": "ISC",
   "devDependencies": {
     "aos": "^2.3.4",
