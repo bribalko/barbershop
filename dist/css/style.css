@@ -2549,12 +2549,12 @@ button.swiper-pagination-bullet {
 
 .about__cont {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
 .about__cont-img {
   display: flex;
-  width: 570px;
+  max-width: 570px;
 }
 
 .about__img:not(:last-child) {
@@ -2562,7 +2562,9 @@ button.swiper-pagination-bullet {
 }
 
 .about__cont-text {
-  width: 570px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
 }
 .about__cont-text:not(:last-child) {
   margin-bottom: 20px;
